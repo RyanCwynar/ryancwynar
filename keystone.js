@@ -72,6 +72,8 @@ keystone.set('nav', {
 	users: 'users',
 });
 
+keystone.set('cloudinary config', 'cloudinary://648252562619583:sGCmceIzRRf8Dogve8v4Ql4WOMs@ryancwynar-com' );
+
 // Start Keystone to connect to your database and initialise the web server
 
 keystone.start();
