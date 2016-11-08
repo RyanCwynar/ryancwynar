@@ -4,9 +4,29 @@
 
 #footer {
 	margin-top: 30px;
-	border-top: 1px solid #eeeeee;
 	padding-top: 30px;
 	color: #777777;
+}
+
+#body{
+  background-color: rgba(0,0,0, .7) !important;
+  color: white;
+  padding: 2em 0;
+}
+
+.text-muted{
+  color: #ddd;
+}
+
+.jumbotron{
+  background-color:transparent !important;
+}
+
+body{
+  background-image: url("/images/hong_kong_wake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
 .gallery-image img{
