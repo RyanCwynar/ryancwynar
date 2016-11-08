@@ -21,7 +21,8 @@ exports.initLocals = function (req, res, next) {
 	res.locals.navLinks = [
 		{ label: 'Main', key: 'home', href: '/' },
 		{ label: 'Projects', key: 'blog', href: '/blog' },
-		{ label: 'Contact', key: 'contact', href: '/contact' },
+		{ label: 'Message Me', key: 'contact', href: '/contact' },
+    { label: 'Bio', key: 'bio', href: '/#' }, // Add a Bio route
 	];
 	res.locals.user = req.user;
 	next();

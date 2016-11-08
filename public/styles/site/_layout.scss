@@ -9,18 +9,31 @@
 }
 
 #body{
-  background-color: rgba(0,0,0, .7) !important;
-  color: white;
-  padding: 2em 0;
+    h1{color:white;}
+  .jumbotron{
+    background-color: transparent;
+    h1{
+      color: white;
+      text-align:right;
+      position: relative;
+      left: -2em;
+      span{
+        font-weight: 100;
+      }
+    }
+
+  }
+  .container.content{
+    h1{
+      color: $state-info-text;
+    }
+    background-color: rgba(255,255,255,.5);
+    border-radius: 1em;
+    padding: 2em;
+    margin-bottom: 1em;
+  }
 }
 
-.text-muted{
-  color: #ddd;
-}
-
-.jumbotron{
-  background-color:transparent !important;
-}
 
 body{
   background-image: url("/images/hong_kong_wake.jpg");

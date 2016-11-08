@@ -27,7 +27,7 @@ block intro
   h1= data.category ? data.category.name : 'Projects'
 
 block content
- .container: .row
+ .container.content: .row
   .col-sm-8.col-md-9
    if filters.category && !data.category
     h3.text-muted Invalid Category.
@@ -68,8 +68,7 @@ block content
 
   if data.categories.length
    .col-sm-4.col-md-3
-    h2 Categories
-    .list-group(style='margin-top: 70px;')
+    .list-group(style='margin-top: 1em;')
      a(href='/blog', class=!data.category ? 'active' : false).list-group-item All Categories
      each cat in data.categories
       a(href='/blog/' + cat.key, class=data.category && data.category.id == cat.id ? 'active' : false).list-group-item= cat.name
