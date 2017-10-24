@@ -1,0 +1,19 @@
+{
+  "name": "ryancwynar",
+  "version": "1.0.0",
+  "description": "business card site",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanCwynar/ryancwynar.git"
+  },
+  "author": "Ryan Cwynar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanCwynar/ryancwynar/issues"
+  },
+  "homepage": "https://github.com/RyanCwynar/ryancwynar#readme"
+}
