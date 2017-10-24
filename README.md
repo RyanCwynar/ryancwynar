@@ -1,2 +1,0 @@
-# ryancwynar
-Personal website
