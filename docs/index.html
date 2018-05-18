@@ -2,88 +2,72 @@
 
 <head>
     <title>Ryan Cwynar</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/lib/jquery.pagepiling.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <style>
     ul {
         list-style-type: none;
     }
-
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="card-columns">
-            <div class="card">
-                <img class="card-img-top" src="./ryan_purple_shirt.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Ryan Cwynar</h4>
-                    <p class="card-text">
-                        <ul>
-                            <li>Software Developer</li>
-                            <li>Language Enthusiast</li>
-                            <li>Cryptocurrency Advocate</li>
-                        </ul>
-                    </p>
+    <div id="pagepiling">
+        <div class="section bg-centered" style="background-image: url('/image/ryan.jpeg');">
+        <div class="text-container">
+            <div style="top: 50%; left: 50%;">
+                <h1>Ryan Cwynar</h1>
+            </div>
+        </div>
+        </div>
+        <div class="section bg-center-top" style="background-image: url('/image/laptopstickers.jpeg');">
+            <div class="text-container">
+                <div style="top: 50%; left: 50%;">
+                    <p>I write code. This is my laptop. Pretty awesome, I know.</p>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Places I've Worked</h4>
-                    <p class="card-text">
-                        <ul>
-                            <li>United States Air Force</li>
-                            <li>Asia Broadcast Satellite</li>
-                            <li>Versa Products</li>
-                            <li>AktaryTech</li>
-                            <li>ShadowBid</li>
-                        </ul>
-                    </p>
+        </div>
+        <div class="section bg-centered" style="background-image: url('/image/working_after_work.jpg');">
+            <div class="text-container">
+                <div style="top: unset; left: 5%; bottom: 5%; transform: none;">
+                <h4>I was... </h4>
+                <p>
+                    <ul>
+                        <li>a Captain in the United States Air Force</li>
+                        <li>a business development director at Asia Broadcast Satellite</li>
+                        <li>a developer at AktaryTech</li>
+                    </ul>
+                </p>
+                </div>
+            </div>  
+        </div>
+        <div class="section bg-contained" style="background-image: url('http://www.fueledonbacon.com/wp-content/uploads/Fueled-on-Bacon-Mission-Statement-Elemental-Logo-v5.png');">
+            <div class="text-container">
+                <div style="top: 20%; left: 50%;">
+                    <h4><a href="http://www.fueledonbacon.com/">Fueled on Bacon</a></h4>
+                    <p> I'm a partner and the lead developer for Fueled on Bacon. </p>
                 </div>
             </div>
-            <div class="card text-white bg-danger mb-3">
-                <img class="card-img-top" src="http://www.fueledonbacon.com/wp-content/uploads/Fueled-on-Bacon-Mission-Statement-Elemental-Logo-v5.png" alt="Fueled on Bacon">
-                <div class="card-body">
-                    <h4 class="card-title"><a href="http://www.fueledonbacon.com/" class="text-white">Fueled on Bacon</a></h4>
-                    <p class="card-text">
-                        Currently I'm a partner and lead developer for Fueled on Bacon.
-                    </p>
-                </div>
-            </div>
-            <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
-                <div class="card-body">
-                    <h4 class="card-title">Send me a Text</h4>
-                    <p class="card-text">If you need to get a text to me...</p>
-                    <a class="btn btn-success" href="https://ryancwynar.typeform.com/to/e4C1Do">Go here</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Ways to Reach Me</h4>
-                    <p class="card-text">
+        </div>
+        <div class="section bg-centered" style="background-image: url('/image/onewheelin.jpg');">
+            <div class="text-container">
+                <div style="top: 30%; left: 70%;">
+                    <h4>Ways to Reach Me</h4>
+                    <p>
                         <ul>
                             <li><a href="https://ryancwynar.typeform.com/to/e4C1Do">Send me a text</a></li>
-                            <li><a href="https://calendly.com/ryancwynar/20min">Schedule a video conference</a></li>
-                            <li><a href="https://www.uberconference.com/ryancwynar">Visit my Uberconference channel</a></li>
                             <li><a href="mailto:rtcx86@gmail.com">Email</a></li>
                         </ul>
                     </p>
                 </div>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top" src="./tessy.jpg" alt="Tesla Model S">
-            <div class="card-body">
-                <h4 class="card-title">Rent Tessy on Turo</h4>
-                <p class="card-text">
-                    I rent out my Tesla sometimes.
-                </p>
-                <a class="btn btn-primary" href="https://turo.com/rentals/cars/ca/los-angeles/tesla-model-s/157361" role="button">See Tessy on Turo</a>
-            </div>
-        </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+    <script src="/lib/jquery.min.js"></script>
+    <script src="/lib/jquery.pagepiling.min.js"></script>
+    <script src="/js/main.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 
