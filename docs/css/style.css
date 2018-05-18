@@ -70,7 +70,11 @@ ul {
   .text.lead-dev{
     top: 20%;
   }
-  .reach-me{}
+  .text.reach-me{
+    transform: unset;
+    transform: translateX(-50%);
+    top: 18%;
+  }
 
 }
 
