@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <full-page ref="fullpage" :options="options" id="fullpage">
     <div class="section">
       <div class="bg-cover bg-top  h-full relative" style="background-image: url(images/mission-control.jpg)">
       <div class="absolute bottom-0 px-4 pb-1 md:p-16 md:static">
@@ -39,7 +39,7 @@
         </div>
       </div>
     </div>
-  </Layout>
+  </full-page>
 </template>
 
 <script>
@@ -47,6 +47,12 @@ export default {
   metaInfo: {
     title: "Home",
   },
+  data: ()=>({
+    options: {
+      licenseKey: '140569C6-E8DB49A5-BEF373F3-E4003E0D',
+      navigation: true,
+    }
+  })
 };
 </script>
 
