@@ -1,4 +1,6 @@
 <template>
+  <Layout>
+  <ClientOnly>
   <full-page ref="fullpage" :options="options" id="fullpage">
     <div class="section">
       <div class="bg-cover bg-top  h-full relative" style="background-image: url(images/mission-control.jpg)">
@@ -40,6 +42,8 @@
       </div>
     </div>
   </full-page>
+  </ClientOnly>
+  </Layout>
 </template>
 
 <script>
