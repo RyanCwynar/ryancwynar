@@ -1,19 +1,17 @@
 {
-  "name": "ryancwynar",
-  "version": "1.0.0",
-  "description": "business card site",
-  "main": "index.html",
+  "name": "ryancwynar-new",
+  "private": true,
   "scripts": {
-    "test": "test"
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RyanCwynar/ryancwynar.git"
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "vue-fullpage.js": "^0.1.5"
   },
-  "author": "Ryan Cwynar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RyanCwynar/ryancwynar/issues"
-  },
-  "homepage": "https://github.com/RyanCwynar/ryancwynar#readme"
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^3.0.1",
+    "tailwindcss": "^1.6.2"
+  }
 }
