@@ -12,22 +12,18 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: node-latest
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-    - name: Github Pages Custom Deploy
-      uses: sterlingwes/gh-pages-deploy-action@v1.1
-      with:
-        # A personal access token needed to push your site after it has been built.
-        access-token: ${{ secrets.GITHUB_TOKEN }}
-        # The subdirectory that your build command outputs your site assets to.
-        source-directory: src # default is 
-        # The build command that should be run to generate your site.
-        build-command: npm run build # default is 
-        # The branch expected by GitHub to have the static files needed for your site.
-        deploy-branch: gh-pages # optional, default is gh-pages
-        # The custom domain you want your Github Pages site to be served from.
-        custom-domain: www.ryancwynar.com
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: Install deps
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Deploy to GH Pages
+        run: npm run deploy
+
