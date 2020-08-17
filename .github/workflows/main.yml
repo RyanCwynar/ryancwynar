@@ -22,7 +22,7 @@ jobs:
       uses: sterlingwes/gh-pages-deploy-action@v1.1
       with:
         # A personal access token needed to push your site after it has been built.
-        access-token: { secrets.ACCESS_TOKEN }
+        access-token: {{ secrets.GITHUB_TOKEN }}
         # The subdirectory that your build command outputs your site assets to.
         source-directory: src # default is 
         # The build command that should be run to generate your site.
