@@ -39,6 +39,7 @@
                 >Fueled on Bacon.</a>
               </p>
               <p class="my-4">Under some circumstances you can also hire me directly.</p>
+              <p class="my-4">Check out <a class="underline" href="https://github.com/ryancwynar">my Github</a> profile.</p>
               <p class="my-4">
                 Here's my
                 <a class="underline" href="https://bitly.com/ryan-swe-resume">resume</a>.
