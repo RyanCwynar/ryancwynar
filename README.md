@@ -1,8 +1,13 @@
-# My personal site
+# Hello, World
 
-This is a simple business card site made with Vue.js, Gridsome, Tailwind, and Fullpage.js.
+I see you've happened upon my Github profile.
 
-### 1. Install Gridsome CLI tool if you don't have
+I'm a developer, as you might imagine, and I write a lot of JS.
 
-`npm install --global @gridsome/cli`
+My tools are Node, Express, Vue, and GraphQL. I also have done a ton of WordPress development.
 
+You can contract me immediately through [Fueled on Bacon](https://fueledonbacon.com).
+
+In some cases you can hire me directly to support your project.
+
+If you want to get in touch, you can always email me at [ryan@fueledonbacon.com](mailto:ryan@fueledonbacon.com)
