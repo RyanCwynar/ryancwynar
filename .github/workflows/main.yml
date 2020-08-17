@@ -16,10 +16,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Setup Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
       - name: Go to root
         uses: actions/checkout@v2.1.0
       - name: Install deps
@@ -27,5 +23,10 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy to GH Pages
-        run: npm run deploy
+        uses: JamesIves/github-pages-deploy-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_BRANCH: master
+          BRANCH: gh-pages
+          FOLDER: dist
 
