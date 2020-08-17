@@ -6,7 +6,7 @@ I'm a developer, as you might imagine, and I write a lot of JS.
 
 My tools are Node, Express, Vue, and GraphQL. I also have done a ton of WordPress development.
 
-You can contract me immediately through [Fueled on Bacon](https://fueledonbacon.com).
+You can contract me immediately via subscription to [Fueled on Bacon](https://fueledonbacon.com), my agency.
 
 In some cases you can hire me directly to support your project.
 
