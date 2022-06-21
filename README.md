@@ -24,9 +24,6 @@
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
-<a href="https://twitter.com/ryantcwynar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ryantcwynar" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/ryancwynar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ryancwynar" height="30" width="40" /></a>
-<a href="https://instagram.com/baconfuel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="baconfuel" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/https://www.youtube.com/channel/ucp5vebk8xekvyxr6vbroe9w/featured" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/ucp5vebk8xekvyxr6vbroe9w/featured" height="30" width="40" /></a>
-<a href="https://discord.gg/https://discord.com/invite/WYbWkbcVpJ" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.com/invite/WYbWkbcVpJ" height="30" width="40" /></a>
-</p>
+<a href="https://cdnlogo.com/logo/linktree_33260.html" target="blank"><img align="center"
+src="https://cdn.cdnlogo.com/logos/l/18/linktree.svg"
+alt="https://linktr.ee/cwynar" height="30" width="40" /></a> </p>
