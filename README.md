@@ -24,6 +24,5 @@
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
-<a href="https://cdnlogo.com/logo/linktree_33260.html" target="blank"><img align="center"
-src="https://cdn.cdnlogo.com/logos/l/18/linktree.svg"
-alt="https://linktr.ee/cwynar" height="30" width="40" /></a> </p>
+<a href="https://linktr.ee/cwynar" target="blank"><img align="center"
+src="https://cdn.cdnlogo.com/logos/l/18/linktree.svg" alt="https://linktr.ee/cwynar" height="30" width="40"/></a></p>
