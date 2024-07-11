@@ -1,12 +1,6 @@
 <h1 align="center">Hello, World!</h1>
-<h2 align="center">I'm Ryan Cwynar</h2>
-<h3 align="center">I see you've happened upon my GitHub profile.</h3>
 
-
-- 👨‍💻 I write mostly in: **Node, Solidity, Express, Vue, and GraphQl**
-
-- 📫 If you want to get in touch, you can always email me at:  **github@cwynar.dev**
-
+- 👨‍💻 I solve automation problems for businesses using a range of tools.
 
 <h3 align="center">Languages and Tools:</h3>
 <p align="center"> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> 
