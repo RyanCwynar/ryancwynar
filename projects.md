@@ -1,9 +1,7 @@
 ## Byldr.co
 Pay as you go Service-as-a-Product.
-## BookWriter AI
-An AI wrapper that writes whole books which can than be sold through direct publishing.
-## Boost and DeBoost Aave Vaults
-Made a CLI tool that used flashloans to lever up and down Aave vaults.
+
+
 ## Community Gym Renovation
 I renovated the gym in the community where I live. 
 ## Studying Scarlett Macaws
@@ -16,10 +14,7 @@ A ticket platform where all the tickets are NFTs and can be resold on a secondar
 An NFT project from 2022 which had a quite successful launch.
 ## Multi-Unit Renovation in Tallahassee
 It's not all software. I renovated my first property in Tallahassee, FL.
-## Learning Spanish
-Starting in 2021 I began learning how to speak Spanish. I'm now effectively fluent.
-## ParOne API and Interface
-Designed much of the MVP for ParOne.com from the CTO chair.
+
 ## SKULabs
 Was a staff engineer there for a little while
 ## Boastable
