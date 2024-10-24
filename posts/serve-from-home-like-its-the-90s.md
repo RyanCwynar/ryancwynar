@@ -1,6 +1,7 @@
 ---
 title: Serve From Home Like it's the 90s
 date: 2024-10-24
+description: Fiber makes it practical to server your sites from home
 ---
 So I started working on my home server.
 
