@@ -1,3 +1,7 @@
+---
+title: Serve From Home Like it's the 90s
+date: 2024-10-24
+---
 So I started working on my home server.
 
 ## Why?
